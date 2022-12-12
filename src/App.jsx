@@ -1,12 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import SearchResult from './component/SearchResult'
 
 function App() {
 
 
   return (
-    <div></div>
+    <dir>
+      <div><SearchResult title="search" /> </div>
+      <div><SearchResult title="result" /> </div>
+      <div><SearchResult /> </div>
+      <div><SearchResult /> </div>
+      <div><SearchResult /> </div>
+    </dir>
   )
 }
 
