@@ -15,7 +15,8 @@
     text-decoration: none;
     color: rgba(0, 0, 0, 0.808);
     font-size: 15px;
-    margin: 20px;
+    /* margin: 20px; */
+    
 }
 
 search-container {
@@ -29,12 +30,12 @@ search-container {
 .card {
     margin-left: 100px;
 
-    width: 420px;
+    width: 480px;
     padding: 10px 10px;
 
 }
 
 .para1 {
     color: rgb(146, 138, 138);
-    font-size: 15px;
+    font-size: 14px;
 }

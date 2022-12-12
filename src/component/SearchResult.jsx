@@ -8,9 +8,9 @@ export default function SearchResult(props) {
     return (
         <div className='search-container' >
             <div className='card'>
-                <ResultLink />
+                <ResultLink link={props.link} />
                 <ResultTitle title={props.title} />
-                <ResultParagraph />
+                <ResultParagraph paragraph={props.paragraph} />
             </div>
         </div>
     )
