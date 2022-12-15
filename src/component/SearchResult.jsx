@@ -3,6 +3,7 @@ import ResultTitle from './ResultTitle'
 import "./result.css"
 import ResultLink from './ResultLink'
 import ResultParagraph from './ResultParagraph'
+import ParaResult from './ParaResult'
 
 export default function SearchResult(props) {
     return (
@@ -11,6 +12,7 @@ export default function SearchResult(props) {
                 <ResultLink link={props.link} />
                 <ResultTitle title={props.title} />
                 <ResultParagraph paragraph={props.paragraph} />
+
             </div>
         </div>
     )
